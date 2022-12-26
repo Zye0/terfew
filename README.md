@@ -1,2 +1,7 @@
 # Zye0.github.io
- Repo for chemistry bonding arts project
+***
+
+Live site: [here](Zye0.github.io)
+
+Chemistry bonding arts project. Uses A-Frame to produce a virtual experience in the browser.
+
