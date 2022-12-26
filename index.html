@@ -5,7 +5,25 @@
     </head>
     <body>
         <a-scene>
+            <a-assets>
+                <img id="sky" src="./sources/images/sky.jpg"/>
+            </a-assets>
             <a-sphere color="blue"></a-sphere>
+            <a-cylinder
+            position="-10 0 -10"
+            color="purple"
+            rotation="45 45 45"
+            scale="1 10 1"></a-cylinder>
+            <a-plane
+            color="green"
+            height="10"
+            width="10"
+            rotation="-90 0 0"></a-plane>
+            <a-image
+            src="#sky"
+            width="10"
+            height="20"
+            rotation="0 0 90"></a-image>
         </a-scene>
     </body>
 </html>
